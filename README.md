@@ -30,9 +30,9 @@ MIT © [calidion](calidion.github.io)
 
 [npm-image]: https://badge.fury.io/js/errorable-admin.svg
 [npm-url]: https://npmjs.org/package/errorable-admin
-[travis-image]: https://travis-ci.org/calidion/errorable-admin.svg?branch=master
-[travis-url]: https://travis-ci.org/calidion/errorable-admin
-[daviddm-image]: https://david-dm.org/calidion/errorable-admin.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/calidion/errorable-admin
-[coveralls-image]: https://coveralls.io/repos/calidion/errorable-admin/badge.svg
-[coveralls-url]: https://coveralls.io/r/calidion/errorable-admin
+[travis-image]: https://travis-ci.org/Errorable/errorable-admin.svg?branch=master
+[travis-url]: https://travis-ci.org/Errorable/errorable-admin
+[daviddm-image]: https://david-dm.org/Errorable/errorable-admin.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/Errorable/errorable-admin
+[coveralls-image]: https://coveralls.io/repos/Errorable/errorable-admin/badge.svg
+[coveralls-url]: https://coveralls.io/r/Errorable/errorable-admin
