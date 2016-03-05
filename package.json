@@ -1,7 +1,7 @@
 {
-  "name": "errorable-admin",
+  "name": "errorable-user",
   "version": "0.0.1",
-  "description": "admin errors for errorable",
+  "description": "user errors for errorable",
   "homepage": "",
   "author": {
     "name": "calidion",
@@ -15,7 +15,7 @@
   "keywords": [
     "error",
     "node",
-    "admin"
+    "user"
   ],
   "devDependencies": {
     "errorable": "^0.2.0",
@@ -35,7 +35,7 @@
       "mocha": true
     }
   },
-  "repository": "calidion/errorable-admin",
+  "repository": "calidion/errorable-user",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"

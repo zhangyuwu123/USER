@@ -1,38 +1,35 @@
-# errorable-admin [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> admin errors for errorable
+# errorable-user [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+> user errors for errorable
 
 ## Installation
 
 ```sh
-$ npm install --save errorable-admin
+$ npm install --save errorable-user
 ```
 
 ## Usage
 
 ```js
 var errorable = require('errorable');
-var errorableAdmin = require('errorable-admin');
+var errorableUser = require('errorable-user');
 var Generator = errorable.Generator;
-var cnErrors = new Generator(errorableAdmin, 'zh-CN').errors;
-var enUsErrors = new Generator(errorableAdmin, 'en-US').errors;
+var cnErrors = new Generator(errorableUser, 'zh-CN').errors;
+var enUsErrors = new Generator(errorableUser, 'en-US').errors;
 
-// AdminNotFound
-// AdminNotLoggedIn
-// AdminExisted
-// AdministratorNotFound
-// AdministratorNotLoggedIn
-// AdministratorExisted
+// UserNotFound
+// UserNotLoggedIn
+// UserExisted
 ```
 ## License
 
 MIT © [calidion](calidion.github.io)
 
 
-[npm-image]: https://badge.fury.io/js/errorable-admin.svg
-[npm-url]: https://npmjs.org/package/errorable-admin
-[travis-image]: https://travis-ci.org/Errorable/administrator.svg?branch=master
-[travis-url]: https://travis-ci.org/Errorable/administrator
-[daviddm-image]: https://david-dm.org/Errorable/administrator.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/Errorable/administrator
-[coveralls-image]: https://coveralls.io/repos/Errorable/administrator/badge.svg
-[coveralls-url]: https://coveralls.io/r/Errorable/administrator
+[npm-image]: https://badge.fury.io/js/errorable-user.svg
+[npm-url]: https://npmjs.org/package/errorable-user
+[travis-image]: https://travis-ci.org/Errorable/user.svg?branch=master
+[travis-url]: https://travis-ci.org/Errorable/user
+[daviddm-image]: https://david-dm.org/Errorable/user.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/Errorable/user
+[coveralls-image]: https://coveralls.io/repos/Errorable/user/badge.svg
+[coveralls-url]: https://coveralls.io/r/Errorable/user
